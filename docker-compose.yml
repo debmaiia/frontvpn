@@ -1,16 +1,13 @@
 version: '3'
 services:
   vpnonline:
-    
     build:
       dockerfile: Dockerfile
       context: .
     image: vpnonline
     container_name: vpnonline
     volumes:
-      - ./apache:/usr/local/apache2/htdocs/
- 
+      - .:/usr/local/app
     restart: always
     ports:
-      - '7039:80'
- 
+      - '7788:5000'       

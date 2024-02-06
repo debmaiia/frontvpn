@@ -1,2 +1,7 @@
-FROM httpd:alpine3.13
-COPY apache/index.html /usr/local/apache2/htdocs/index.html
+FROM node:alpine
+WORKDIR /app/
+RUN npm install -g npm@latest
+RUN npm install express
+COPY package*.json /app/
+COPY . /app
+CMD ["node", "server.js"]
