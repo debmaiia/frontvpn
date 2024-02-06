@@ -29,12 +29,12 @@ Para rodar as aplicações é necessário instalar docker
 
 Linux
 ```bash
-comando
+docker compose up -d
 ```
 Testando a instalação
 ```bash
 
-comando
+curl -I http://localhost:7039 ou http://localhost:7039
 ```
 
 Instalando o ansible

@@ -13,4 +13,6 @@ services:
     restart: always
     ports:
       - '7039:80'
- 
+networks:
+  mynetwork:
+    name: frontvpn
