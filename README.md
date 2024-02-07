@@ -54,11 +54,12 @@ Testando a instalação
 curl -I http://localhost:7039 ou http://localhost:7039
 ```
 
-Instalando o ansible
-```bash
-
-
 ```
+## Adicionar no crontab do usuário para rodar o script de atualização
+
+*/5 * * * * user  cron/vpnatualiza.sh
+
+
 ## Documentação
 
 [Linux](https://)
