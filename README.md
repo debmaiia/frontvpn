@@ -38,9 +38,8 @@ Cria certificado: docker-compose run --rm openvpn easyrsa build-client-full $CLI
 docker-compose run --rm openvpn ovpn_getclient $CLIENTNAME > $CLIENTNAME.ovpn
 
 
+
 ```
-
-
 ## Rodando as aplicações
 
 Para rodar as aplicações é necessário instalar docker
