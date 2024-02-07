@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      0deg,
+      rgb(196, 195, 207) 0%,
+      rgb(37, 60, 109) 50%,
+      rgb(125, 238, 115) 100%
+    );
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
+#headmenu {
+    height: 15vh !important;
+    padding-left: 5rem;
+    background-size: cover;
+}
+
+.container-xl, .row, .container{
+    height: 70vh !important;
+}
+
+.col {
+    padding: 0;
+}
+
+#coluna {
+    height: 50vh !important;
+}
+
+#iframeslide {
+    height: 50vh !important;
+    border: 3px solid;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+
+#iframeslide:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+#frameuser {
+    height: 30vh;
+}
+
+#carroselitem {
+    padding-top: 5vh;
+}
+
+#coluna2 {
+    height: 50vh !important;
+    row-gap: 2.5vh;
+}
+
+#block {
+    width: 80%;
+    height: 15vh !important;
+    border: 3px solid;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+
+#block:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+#framehour, #framecount, #frameobs {
+    height: 4rem;
+}
+
+#framehour {
+    width: 50%;
+}
+
+#framecount {
+    width: 8%;
+}
+
+#frameobs {
+    width: 90%;
+}
+
+a {
+    height: 2rem !important;
+    margin: auto;
+}
+
+footer {
+    border-top: 4px solid #dad3d3;
+    border-radius: 3px;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    color: #b1a9a9;
+    padding-left: 2rem;
+    padding-top: 5vh;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Outfit', sans-serif;
+    color: #b1a9a9;
+    margin: auto;
+}
+
+.botao {
+    background-color: snow;
+    border: snow;
+    border-radius: 15px;
+    width: 5rem;
+}
+
+#users, #warning, #clock, #check, #obs {
+    margin-right: 0.5rem;
+}
