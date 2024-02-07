@@ -21,6 +21,24 @@ Automação de projetos para a entrega contínua de sistemas focado em CICD
 - [@guilhermesoares](https://www.github.com/guilhermesgit)
 - [@deborahmaia](https://www.github.com/)
 
+## Instalando o Openvpn em docker
+
+Linux
+```bash
+
+docker-compose run --rm openvpn ovpn_genconfig -u udp://IpPublico
+docker-compose run --rm openvpn ovpn_initpki
+digite uma senha: da vpn
+chown -R $(whoami): ./openvpn-data
+docker-compose up -d openvpn
+
+Criar certificado:
+variavel do certificado: export CLIENTNAME="teste"
+Cria certificado: docker-compose run --rm openvpn easyrsa build-client-full $CLIENTNAME nopass
+docker-compose run --rm openvpn ovpn_getclient $CLIENTNAME > $CLIENTNAME.ovpn
+
+
+```
 
 
 ## Rodando as aplicações
