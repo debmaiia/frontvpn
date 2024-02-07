@@ -1,2 +1,1 @@
-escreva aqui ips autorizados, escreva aqui ips autorizados, etc
-escreva aqui ips autorizados, etc
+Whitelist: 1.1.1.1 e 2.2.2.2
