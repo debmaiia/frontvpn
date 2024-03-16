@@ -1,6 +1,6 @@
 # Projeto frontvpn
 
-Projetos clouds de automação
+O OpenVPN em Docker oferece uma solução flexível e escalável para implementar redes privadas virtuais (VPNs). Ao encapsular o OpenVPN em um contêiner Docker, os usuários podem facilmente implantar, gerenciar e escalar suas instâncias de VPN em qualquer ambiente compatível com Docker, seja localmente em máquinas individuais ou em ambientes de nuvem. Essa abordagem permite a rápida criação de VPNs seguras e personalizadas, garantindo a proteção dos dados transmitidos entre diferentes dispositivos e redes. Com recursos de isolamento fornecidos pelo Docker, juntamente com a flexibilidade do OpenVPN, as organizações podem garantir a segurança e a privacidade de suas comunicações, independentemente do tamanho ou da complexidade da infraestrutura de rede.
 
 
 ## Tecnologias utilizadas
