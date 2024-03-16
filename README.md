@@ -62,11 +62,10 @@ curl -I http://localhost:7039 ou http://localhost:7039
 
 ## Documentação
 
-[Linux](https://)
 
-[Docker VPN](https:// https://hub.docker.com/r/kylemanna/openvpn)
+[Kylemanna/OpenVPN](https:// https://hub.docker.com/r/kylemanna/openvpn)
 
-[AWS](https://)
+[Front VPN](https://)
 
 ## Características
 
