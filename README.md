@@ -9,7 +9,7 @@ O OpenVPN em Docker oferece uma solução flexível e escalável para implementa
  - [FrontVPN Dockerhub]()
  - [ Kylemana Openvpn Dockerhub](https://hub.docker.com/r/kylemanna/openvpn)
  
- ![VPN](front.jpg)
+ ![VPN](vpnonline.png)
  ![VPN](vpn.webp)
 
 
