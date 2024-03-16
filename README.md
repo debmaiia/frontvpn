@@ -20,7 +20,7 @@ Automação de projetos para a entrega contínua de sistemas focado em CICD
 ## Guilherme Soares
 
 - [@guilhermesoares](https://www.github.com/guilhermesgit)
-- [@deborahmaia](https://www.github.com/)
+- [@deborahmaia](https://www.github.com/debmaiia)
 
 ## Instalando o Openvpn em docker
 
