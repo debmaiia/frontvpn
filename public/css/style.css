@@ -55,6 +55,7 @@
 
 #frameuser {
     height: 30vh;
+    background-color: transparent;
 }
 
 #carroselitem {
@@ -82,6 +83,7 @@
 
 #framehour, #framecount, #frameobs {
     height: 4rem;
+    background-color: transparent;
 }
 
 #framehour {
