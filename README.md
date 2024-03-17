@@ -66,7 +66,7 @@ curl -I http://localhost:7039 ou http://localhost:7039
 
 [Kylemanna/OpenVPN](https:// https://hub.docker.com/r/kylemanna/openvpn)
 
-[Front VPN](https://)
+[Front VPN](https://hub.docker.com/repository/docker/debmaiia/vpnonline/)
 
 ## Características
 
@@ -84,3 +84,6 @@ curl -I http://localhost:7039 ou http://localhost:7039
 ## Suporte
 
 Para suporte entre em contato nos seguintes linkedins:
+
+https://www.linkedin.com/in/guilhermeo-soares/
+https://www.linkedin.com/in/debmaiia/
