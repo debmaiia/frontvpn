@@ -30,3 +30,12 @@ jobs:
             debmaiia/vpnonline:latest
             debmaiia/vpnonline:0.${{ github.run_number}}.0
             
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@0.20.0
+        with:
+          image-ref: 'debmaiia/vpnonline:0.${{ github.run_number}}.0'
+          format: 'table'
+          exit-code: '1'
+          ignore-unfixed: true
+          vuln-type: 'os,library'
+          severity: 'CRITICAL,HIGH'
