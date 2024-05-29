@@ -28,5 +28,5 @@ jobs:
           push: true
           tags: |
             debmaiia/vpnonline:latest
-            debmaiia/vpnonline:${{ github.run_number}}
+            debmaiia/vpnonline:0.${{ github.run_number}}.0
             
